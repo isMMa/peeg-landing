@@ -407,9 +407,11 @@ a { color: inherit; }
   position: absolute;
   left: 50%; bottom: 22%;
   transform: translateX(-50%);
-  width: 90px; height: 81px;
+  width: 90px;
+  height: auto;
   animation: pet-bounce 2.4s ease-in-out infinite;
 }
+
 .pixel-pet::before {
   content: "";
   position: absolute;
