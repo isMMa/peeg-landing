@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://peeg.devcodelight.com/sitemap.xml
