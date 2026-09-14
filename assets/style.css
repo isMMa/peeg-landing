@@ -322,7 +322,7 @@ a { color: inherit; }
 .hero {
   position: relative;
   overflow: hidden;
-  padding-block: 64px 40px;
+  padding-block: 28px 40px;
 }
 
 .hero-grid {
@@ -551,7 +551,7 @@ a { color: inherit; }
    Section shell
    ========================= */
 
-section { padding-block: 88px; }
+section { padding-block: 56px; }
 
 .section-head {
   max-width: 640px;
@@ -785,8 +785,8 @@ section { padding-block: 88px; }
 }
 .cta-band p { max-width: 50ch; margin: 0 auto 8px; opacity: 0.95; }
 .cta-band .store-badges { justify-content: center; }
-.cta-band .store-badge { background: rgba(0,0,0,0.28); }
-.cta-band .store-badge:hover { background: rgba(0,0,0,0.4); }
+.cta-band .store-badge { background: rgba(0, 0, 0, 0.35); }
+.cta-band .store-badge:hover { background: rgba(0, 0, 0, 0.5); }
 
 /* =========================
    Footer
