@@ -403,6 +403,30 @@ a { color: inherit; }
   z-index: 5;
 }
 
+.room-scene.pet-viewer { width: min(375px, 100%); height: 667px; padding-top: 10px; aspect-ratio: auto; padding: 10px; box-sizing: border-box; background: var(--sky); transform: translateY(0px) !important; }
+.room-scene.pet-viewer iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+.room-scene.pet-viewer .pet-viewer-clip { display: none; }
+@media (max-width: 480px) {
+  .room-scene.pet-viewer .pet-viewer-clip {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+    background: var(--sky);
+    z-index: 2;
+    pointer-events: none;
+  }
+}
+
 .pixel-pet {
   position: absolute;
   left: 50%; bottom: 22%;
