@@ -412,18 +412,9 @@ a { color: inherit; }
   border: 0;
   display: block;
 }
-.room-scene.pet-viewer .pet-viewer-clip { display: none; }
 @media (max-width: 480px) {
-  .room-scene.pet-viewer .pet-viewer-clip {
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 20px;
-    background: var(--sky);
-    z-index: 2;
-    pointer-events: none;
+  .room-scene.pet-viewer iframe {
+    top: -20px;
   }
 }
 
