@@ -892,14 +892,6 @@ section { padding-block: 56px; }
   box-shadow: var(--shadow-soft);
 }
 
-.legal .legal-todo {
-  background: var(--sand);
-  border-left: 4px solid var(--gold);
-  border-radius: var(--radius-sm);
-  padding: 16px 18px;
-  margin: 16px 0;
-}
-
 .legal .legal-owner {
   margin-top: 32px;
   padding-top: 20px;
